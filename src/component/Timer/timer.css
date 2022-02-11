@@ -1,0 +1,129 @@
+.T {
+  text-align: center;
+  font-size: 50px;
+}
+.I {
+  background-color: rgb(128, 136, 128);
+}
+.I:hover {
+  background-color: rgb(250, 250, 250);
+}
+.I-2 {
+  background-color: rgb(6, 49, 6);
+  margin-top: 4rem;
+}
+.P {
+  font-family: Georgia, "Times New Roman", Times, serif;
+
+  font-weight: 100;
+  font-size: 22px;
+  letter-spacing: 2px;
+  line-height: 2.9rem;
+  text-align: start;
+  padding: 0 3rem;
+}
+.P1 {
+  padding-top: 6rem;
+}
+.p-div {
+  border-top: 2px solid rgb(23, 134, 13);
+  margin-top: 5rem;
+  width: 100%;
+}
+.B {
+  color: darkgreen;
+  font-weight: 900;
+}
+.H {
+  font-size: 2rem;
+  color: darkgreen;
+  padding-top: 3rem;
+}
+.countdown {
+  position: absolute;
+  margin-top: 2rem;
+  left: 37rem;
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+}
+.hour,
+.minute,
+.seconds {
+  font-size: 3rem;
+  padding: 0.4rem;
+}
+h3 {
+  font-size: 19px;
+}
+.container-hour {
+  border-radius: 0.7rem;
+  border: 0.2rem solid rgb(12, 163, 37);
+}
+.container-minute {
+  border-radius: 0.7rem;
+  border: 0.2rem solid rgb(12, 163, 37);
+}
+.container-second {
+  border-radius: 0.7rem;
+  border: 0.2rem solid rgb(12, 163, 37);
+}
+
+.whatsapp-img {
+  background-color: rgb(54, 204, 54);
+  border-radius: 20%;
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 30px;
+  right: 26px;
+  z-index: 999;
+  padding: 5px;
+}
+.Footer {
+  padding: 10px;
+  background-color: rgb(4, 15, 4);
+  text-align: center;
+  color: rgb(240, 240, 240);
+}
+.P-foot {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 4rem;
+  font-size: 25px;
+}
+@media screen and (max-width: 768px) {
+  .countdown {
+    left: 16rem;
+  }
+  .P {
+    font-size: 27px;
+    padding: 22px;
+    line-height: 2.9rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .img {
+    width: 80%;
+  }
+  .countdown {
+    left: 3rem;
+  }
+  .P {
+    font-size: 17px;
+    padding: 20px;
+  }
+
+  .P-foot {
+    font-size: 17px;
+  }
+}
+/*@media screen and (max-width: 768px) {
+  .countdown {
+    left: 16rem;
+  }
+  .P {
+    font-size: 27px;
+    padding: 22px;
+    line-height: 2.9rem;
+  }
+}*/

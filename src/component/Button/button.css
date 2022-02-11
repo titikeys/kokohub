@@ -1,0 +1,47 @@
+.btn-2 {
+  background: transparent;
+  border: 4px solid #ffffff;
+  border-radius: 0;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 12px 42px;
+  margin-top: 150px;
+  margin-left: 90px;
+  transition: all 0.4s ease-in-out;
+}
+.btn-2:hover {
+  background: #00c6d7;
+  border-color: transparent;
+}
+.btn-danger2 {
+  background: #329b45;
+  border-color: transparent;
+}
+.btn-danger2:hover {
+  border: 4px solid #41b447;
+  border-radius: 0;
+  background: transparent;
+  color: #668a62;
+  cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+  .btn-2 {
+    font-size: 15px;
+    margin-left: 14px;
+    margin-right: 14px;
+    padding: 12px 60px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-device-width: 768px) {
+  .btn-2 {
+    font-size: 28px;
+    width: 600px;
+
+    margin-left: 100px;
+    padding: 12px 0px;
+
+    transition: all 0.4s ease-in-out;
+  }
+}

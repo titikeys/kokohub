@@ -1,0 +1,154 @@
+.c {
+  height: 100vh;
+  position: relative;
+}
+.c-bg {
+  width: 20px;
+  height: 100%;
+  position: absolute;
+}
+.c-wrapper {
+  padding: 50px;
+  display: flex;
+}
+.c-left {
+  flex: 1;
+}
+.c-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.c-title {
+  font-size: 60px;
+  width: 80%;
+}
+.c-info-item {
+  display: flex;
+  align-items: center;
+  margin: 50px 0;
+  font-weight: 100;
+  width: 70%;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.c-phone {
+  color: rgb(47, 80, 15);
+  margin-right: 20px;
+}
+.c-mail {
+  color: rgb(139, 28, 20);
+  margin-right: 20px;
+}
+.c-location {
+  color: rgb(197, 24, 139);
+  margin-right: 20px;
+}
+.c-desc {
+  font-weight: 200;
+  font-size: 25px;
+}
+form {
+  margin-top: 20px;
+}
+input {
+  width: 60%;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid black;
+  margin: 15px 0px;
+  font-size: 17px;
+  padding-left: 10px;
+}
+textarea {
+  width: 100%;
+  margin: 10px 0px;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.btn:hover {
+  background: #00c6d7;
+  border-color: transparent;
+}
+.btn-danger {
+  background: #1d7a2f;
+  border-color: transparent;
+}
+.btn-danger:hover {
+  border: 2px solid #41b447;
+  border-radius: 0;
+  background: transparent;
+  color: #0f0f0f;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .c-wrapper {
+    flex-direction: column;
+  }
+  .c-info-item {
+    font-size: 30px;
+  }
+  .c-desc {
+    display: none;
+  }
+  form {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  input {
+    width: 36%;
+    height: 40px;
+    margin: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .c-wrapper {
+    flex-direction: column;
+    padding: 0px 50px;
+    margin-top: 20rem;
+  }
+  .c-title {
+    font-size: 30px;
+  }
+  .c-info-item {
+    margin: 20px 0px;
+    width: 100%;
+    font-size: 16px;
+  }
+  .c-desc {
+    display: none;
+  }
+  form {
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  input {
+    width: 35%;
+    height: 40px;
+    margin: 10px;
+  }
+}
+/*@media screen and (max-width: 768px) {
+  .c-wrapper {
+    flex-direction: column;
+  }
+  .c-info-item {
+    font-size: 30px;
+  }
+  .c-desc {
+    display: none;
+  }
+  form {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  input {
+    width: 36%;
+    height: 40px;
+    margin: 10px;
+  }
+}*/
